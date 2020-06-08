@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_apalwebsite_name": {
+            "value": "apalwebsite"
+        },
+        "serverfarms_ServerFarm1_name": {
+            "value": "applicationapal"
+        },
+      "components_apalwebsite_name": {
+        "value": "apalwebsite"
+      },
+      "smartdetectoralertrules_failure_anomalies___apalwebsite_name": {
+        "value": "apalwebsite"
+      },
+      "actiongroups_application_20insights_20smart_20detection_externalid": {
+        "value": "/subscriptions/0e03b36b-2a8f-477d-b8f4-15453b85bd73/resourceGroups/mahesh/providers/microsoft.insights/actiongroups/application%20insights%20smart%20detection"
+      }
+    }
+}
